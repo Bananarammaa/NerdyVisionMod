@@ -5,6 +5,8 @@ import sys
 import time
 from networktables import NetworkTable
 import logging
+import urllib2
+import urllib
 logging.basicConfig(level=logging.DEBUG)
 
 """FRC Vision testing with OpenCV Python"""
